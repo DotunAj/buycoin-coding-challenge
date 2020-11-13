@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #fff;
+  margin: 0;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  height: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gutter {
+  width: 25%;
+  padding: 0 25px;
+}
+
+/* nav */
+.nav-container {
+  height: 50px;
+  border-bottom: 1px solid #e1e4e8;
+  width: 100%;
+  padding: 0 25px;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+nav ul {
+  display: flex;
+  width: 75%;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.nav__links-item {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 16px;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.nav__links-item svg {
+  opacity: 0.4;
+  margin-right: 6px;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom-color: #f9826c;
+}
+
+.active svg {
+  opacity: 1;
+}
+
+.counter {
+  min-width: 20px;
+  font-weight: 500;
+  padding: 0 6px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(209 213 218 / 50%);
+}
+
+/* main section */
+.main-container {
+  display: flex;
+  margin-right: 50px;
+  position: relative;
+  padding: 0 25px;
+}
+
+.main-container main {
+  flex: 1;
+}
+
+.text-input-container {
+  padding: 15px 0;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.main-container input[type="text"] {
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: 1px solid #e1e4e8;
+  width: 100%;
+  line-height: 20px;
+}
+
+.main-container input[type="text"]:focus {
+  border-color: #0366d6;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3);
+}
+
+.main-container .filter {
+  padding: 15px 0;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.main-container .filter p {
+  margin: 0;
+}
+
+.main-container .filter p span {
+  font-weight: bold;
+}
+
+.repo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.repo-details a {
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.repo-details a:hover {
+  text-decoration: underline;
+}
+
+.repo-details p {
+  color: #586069;
+}
+.repo-details .meta {
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.repo-details .meta span {
+  margin-right: 12px;
+}
+
+.repo-details .meta .colored-circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  background-color: purple;
+  content: "";
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.repo-details .meta .item {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.repo-details .meta .item svg {
+  fill: #6a737d;
+  margin-right: 6px;
+}
+
+.repo-star-button button {
+  color: #24292e;
+  padding: 3px 12px;
+  background-color: #fafbfc;
+  border-radius: 6px;
+  border: 1px solid rgb(27 31 35 / 15%);
+  display: flex;
+  align-items: center;
+}
+
+.repo-star-button button svg {
+  fill: #6a737d;
+  margin-right: 6px;
+}
+
+.main-container aside {
+  position: relative;
+  top: -25px;
+  z-index: 4;
+}
+
+aside .avatar {
+  width: 100%;
+}
+
+aside .avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+aside .details h5 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+}
+
+aside .details p {
+  font-size: 20px;
+  color: #586069;
+  margin: 0;
+}
+
+aside .details p:last-child {
+  font-size: 16px;
+  color: #24292e;
+  margin-top: 16px;
+}
+
+.mobile-profile {
+  display: none;
+  padding: 0 25px;
+  margin: 15px 0;
+}
+
+.mobile-profile .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mobile-profile .top .avatar {
+  width: 20%;
+}
+
+.mobile-profile .top .details {
+  width: 80%;
+  margin-left: 30px;
+}
+
+.mobile-profile .top .details p {
+  margin: 0;
+  font-size: 20px;
+  color: #586069;
+}
+
+.mobile-profile > p {
+  font-size: 16px;
+  color: #24292e;
+}
+
+@media (max-width: 800px) {
+  .gutter {
+    width: 0%;
+    display: none;
+  }
+
+  .mobile-profile {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul {
+    width: 100%;
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "data": {
+    "user": {
+      "repositories": {
+        "nodes": [
+          {
+            "description": "🚀✨ Help beginners contribute to open source projects",
+            "forkCount": 0,
+            "name": "first-contributions",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                }
+              ]
+            },
+            "updatedAt": "2018-09-26T15:15:21Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "Starter Code for the Udacity's \"Mobile Web Specialist Restaurant Reviews App: Stage 1\" Project",
+            "forkCount": 0,
+            "name": "mws-restaurant-stage-1",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                }
+              ]
+            },
+            "updatedAt": "2018-12-23T17:16:37Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": null,
+            "forkCount": 0,
+            "name": "todoreact",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                }
+              ]
+            },
+            "updatedAt": "2019-02-19T22:24:29Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": null,
+            "forkCount": 0,
+            "name": "todoapp",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                }
+              ]
+            },
+            "updatedAt": "2019-02-20T14:15:25Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": null,
+            "forkCount": 0,
+            "name": "guestbook",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                }
+              ]
+            },
+            "updatedAt": "2019-02-26T01:53:52Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "A code of conduct for Bells University Developer community",
+            "forkCount": 0,
+            "name": "BDC--code-of-conduct-",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": []
+            },
+            "updatedAt": "2019-03-09T19:44:52Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "The static files for bells university developers community website",
+            "forkCount": 2,
+            "name": "BDC-website",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                }
+              ]
+            },
+            "updatedAt": "2019-04-08T15:09:58Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "HTML and CSS of stylish movie app",
+            "forkCount": 0,
+            "name": "movie-app-boilerplate",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                }
+              ]
+            },
+            "updatedAt": "2019-08-28T01:18:55Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "HTML and CSS of a portfolio designed by designia",
+            "forkCount": 0,
+            "name": "designia-portfolio",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "HTML",
+                  "color": "#e34c26"
+                }
+              ]
+            },
+            "updatedAt": "2019-09-02T15:46:58Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "HTML and CSS of Ayodotun A. Ajala personal website",
+            "forkCount": 0,
+            "name": "personal-website-boilerplate",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                }
+              ]
+            },
+            "updatedAt": "2019-09-05T01:00:39Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "practicing sass",
+            "forkCount": 0,
+            "name": "natours",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                }
+              ]
+            },
+            "updatedAt": "2019-09-06T18:11:53Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "A web app that helps you locate the nearest hospitals and health centers around you.",
+            "forkCount": 0,
+            "name": "care-central-web",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                }
+              ]
+            },
+            "updatedAt": "2019-09-10T10:59:26Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "A quiz app built with Vuejs and opentdb quiz API",
+            "forkCount": 1,
+            "name": "vue-quiz-app",
+            "stargazerCount": 1,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                }
+              ]
+            },
+            "updatedAt": "2019-09-16T22:48:16Z",
+            "viewerHasStarred": true
+          },
+          {
+            "description": "The application converts one currency to another both online and offline. ",
+            "forkCount": 0,
+            "name": "currencyconverter",
+            "stargazerCount": 2,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                }
+              ]
+            },
+            "updatedAt": "2019-09-23T23:28:09Z",
+            "viewerHasStarred": true
+          },
+          {
+            "description": null,
+            "forkCount": 0,
+            "name": "lepsta",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                }
+              ]
+            },
+            "updatedAt": "2019-09-28T13:16:10Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "⚡️ A resource to help figure out what JavaScript array method would be best to use at any given time",
+            "forkCount": 0,
+            "name": "array-explorer",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                }
+              ]
+            },
+            "updatedAt": "2019-10-09T20:13:37Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "A movie listing app",
+            "forkCount": 0,
+            "name": "nuxt-movies-app",
+            "stargazerCount": 1,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                }
+              ]
+            },
+            "updatedAt": "2019-10-19T13:03:32Z",
+            "viewerHasStarred": true
+          },
+          {
+            "description": "Biolerplate for a biodata form",
+            "forkCount": 0,
+            "name": "biodata-form",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                }
+              ]
+            },
+            "updatedAt": "2020-04-15T11:15:26Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": "My personla website",
+            "forkCount": 0,
+            "name": "ayodotun-ajala",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "JavaScript",
+                  "color": "#f1e05a"
+                }
+              ]
+            },
+            "updatedAt": "2020-08-11T15:00:05Z",
+            "viewerHasStarred": false
+          },
+          {
+            "description": null,
+            "forkCount": 0,
+            "name": "NCCF",
+            "stargazerCount": 0,
+            "languages": {
+              "nodes": [
+                {
+                  "name": "CSS",
+                  "color": "#563d7c"
+                }
+              ]
+            },
+            "updatedAt": "2020-08-29T19:04:14Z",
+            "viewerHasStarred": false
+          }
+        ]
+      },
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/31377681?s=300&u=a927010329b9e4a3f8b4f324fa5e8979bb2bef2f&v=4",
+      "name": "Ajala Ayodotun",
+      "bio": "I am a Front End Web Developer and very enthusiastic about building and optimizing web apps.",
+      "login": "DotunAj"
+    }
+  }
+}
